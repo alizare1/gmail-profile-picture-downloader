@@ -158,7 +158,7 @@ class GmailPicDownloader:
                 fp.write(img.content)
                 print('Image Downloaded!')
         else:
-            print('User doesn\'t a profile picture!')
+            print('User doesn\'t have a profile picture!')
 
 
 
