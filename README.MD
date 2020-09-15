@@ -1,0 +1,3 @@
+# Gmail Profile Picture Downloader
+This python script uses Selenium to login into a provided gmail account. Google doesn't let automation scripts to login using gmail website. To go over this one must login to another site using google account and then open gmail url again. For this purpose the script first opens Stackoverflow and logins using the google account and then redirects to gmail.
+after logging in to gmail, the script extracts the required cookies from webdriver and mimics a HTTP request (using requests library) to google servers to get the url for the image.
